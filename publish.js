@@ -1,14 +1,14 @@
 var emails = [
-    'contact@xwuma.com'
+    'contact@xsese.com'
 ];
 var newestUrls = [
-    'https://xwuma.com'
+    'https://xsese.com'
 ];
 var otherUrls = [
     'https://xqingse.github.io'
 ];
 var foreverUrls = [
-    'https://xwuma.com'
+    'https://xsese.com'
 ];
 var notices = [
     '* 我们推荐PC和Andriod手机用户使用Chrome(谷歌)浏览器访问，iPhone用户我们建议您使用手机自带Safria浏览器访问。',
@@ -59,11 +59,11 @@ window.onload = function () {
     var logoElem = document.createElement('div');
     logoElem.setAttribute('class', 'brand');
     logoElem.setAttribute('id', 'logo');
-    logoElem.innerHTML = '<h1 class="flag">X情色视频</h1>'
+    logoElem.innerHTML = '<h1 class="flag">X色色视频</h1>'
     mainElem.appendChild(logoElem);
 
     // newest urls
-    var newestFieldElem = createFieldElem({title: 'X情色视频最新地址', items: newestUrls, text: '请使用https://协议访问X情色视频'});
+    var newestFieldElem = createFieldElem({title: 'X色色视频最新地址', items: newestUrls, text: '请使用https://协议访问X色色视频'});
     mainElem.appendChild(newestFieldElem);
 
     // other urls
@@ -75,7 +75,7 @@ window.onload = function () {
     mainElem.appendChild(mailFieldElem);
 
     // forever urls
-    var foreverFieldElem = createFieldElem({title: 'X情色视频永久地址', items: foreverUrls});
+    var foreverFieldElem = createFieldElem({title: 'X色色视频永久地址', items: foreverUrls});
     mainElem.appendChild(foreverFieldElem);
 
     // Description
